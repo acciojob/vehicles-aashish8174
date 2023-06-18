@@ -1,7 +1,8 @@
 package com.driver;
 
 public class Vehicle {
-
+    public Vehicle() {
+    }
     private String name;
 
     public String getName() {

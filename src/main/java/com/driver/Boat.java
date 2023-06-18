@@ -1,15 +1,15 @@
 package com.driver;
 
 public class Boat implements WaterVehicle{
-
+    Vehicle v = new Vehicle();
 
     @Override
     public String getVehicleName() {
-        return null;
+        return v.getName();
     }
 
     @Override
     public int getVehicleCapacity() {
-        return 0;
+        return v.getCurrentSpeed();
     }
 }
